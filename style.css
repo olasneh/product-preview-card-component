@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:hsl(30, 38%, 92%) ;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background: hsl(0, 0%, 100%); 
+    max-width: 700px;
+    border-radius: 10px;
+}
+section.card{
+    width: 50%;
+    height: 100%;
+
+}
+section.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+section.card__content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px;
+    gap: 20px;
+}
+article.card-content-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    color: hsl(228, 12%, 48%);
+}
+h1{
+    font-size: 40px;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    line-height: 40px;
+}
+article.card-content-description{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    line-height: 25px;
+}
+article.card-content-price{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 50%;
+}
+p.card-pa{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(158, 36%, 37%);
+    padding: 20px 0;
+
+}
+p.card-pe{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: hsl(228, 9%, 55%);
+    display: flex;
+    align-items: center;
+}
+article.card-content-button{
+    display: flex;
+    justify-content: center;
+}
+button.cart{
+    width: 100%;
+    height: 50px;
+    background: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    color: white;
+    font-family:"Montserrat", sans-serif; 
+    font-weight: 600;
+}
+button.cart img{
+    width: 20px;
+}
+button.cart:hover{
+    background: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        background: hsl(0, 0%, 100%);
+        max-width: 450px;
+        border-radius: 10px;
+    }
+    section.card {
+        width: 100%;
+        height: 300px;
+
+        }
+        section.card img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+        section.card__content{
+            width: 100%;
+        }
+}
+
