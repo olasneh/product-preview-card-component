@@ -116,17 +116,18 @@ button.cart:hover{
         width: 90%;
         background: hsl(0, 0%, 100%);
         max-width: 450px;
+        border-radius: 20px;
     }
     section.card {
         width: 100%;
         height: 300px;
-        border-radius: 10px 10px 0 0;
+        border-radius: 20px 20px 0 0;
 
         }
         section.card img{
             width: 100%;
             height: 100%;
-            border-radius: 10px 10px 0 0;
+            border-radius: 20px 20px 0 0;
         }
         section.card__content{
             width: 100%;
